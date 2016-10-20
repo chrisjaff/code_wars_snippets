@@ -85,6 +85,18 @@ Write a function that takes an array of directions(`n`, `s`, `w`, or `e`). It sh
 function isValidWalk(directions){
   // your code
 }
+
+var walkOne = ["n", "w", "s", "e"]
+isValidWalk(walkOne)
+// should return false because it won't take 10 minutes despite it leading you back to starting point
+
+var walkTwo = ["n", "w", "s", "e", "n", "w", "s", "e", "e", "e"]
+isValidWalk(walkTwo)
+// should return false because it won't lead you back to starting point despite it lasting 10 minutes
+
+var walkThree = ["n", "w", "s", "e", "n", "w", "s", "e", "e", "w"]
+isValidWalk(walkThree)
+// should return true because it leads to the origin and takes exactly 10 minutes
 ```
 
 ## Snail Sort
