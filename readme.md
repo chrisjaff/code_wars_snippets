@@ -49,8 +49,8 @@ For example:
 ```js
 var demoFieldWithPoo = [
   [_,_,_,_,_,_],
-  [_,_,_,_,@,_],
-  [@,_,_,_,_,_],
+  [_,_,_,_,"@",_],
+  ["@",_,_,_,_,_],
 ]
 
 
@@ -62,9 +62,9 @@ canCollectCrap(demoFieldWithPoo, 1, 1)
 //should return 'Cr@p'
 
 var demoFieldWithDog = [
-  [_,_,D,_,_,_],
-  [_,_,_,_,@,_],
-  [@,_,_,_,_,_],
+  [_,_,"D",_,_,_],
+  [_,_,_,_,"@",_],
+  ["@",_,_,_,_,_],
 ]
 
 canCollectCrap(demoFieldWithDog, 2, 1)
