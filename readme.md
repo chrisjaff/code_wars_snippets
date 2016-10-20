@@ -6,6 +6,8 @@ Write some psuedocode!
 Test frequently!
 Move Fast Break Things!
 
+> If you enjoyed these exercises, they were all taken from [code wars](https://www.codewars.com/) Check them out! They are great for interview prep.
+
 ## Rental Car Calculator
 
 After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you.
